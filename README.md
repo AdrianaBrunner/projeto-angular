@@ -1,3 +1,7 @@
+Projeto criado em Angular utilizando HTML, CSS, TypeScript consumindo a API de consulta de bancos https://brasilapi.com.br/api/banks/v1
+
+![image](https://user-images.githubusercontent.com/88938672/196298493-f4c8a055-0c7c-486d-9ce5-4ce83e78210f.png)
+
 # ConsultaApi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
