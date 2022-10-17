@@ -1,0 +1,23 @@
+<header>
+  <h1>Consulta de Bancos</h1>
+</header>
+
+<main>
+  <label for="">Procure o seu banco:</label>
+  <input type="text" (keyup)="filtrar($event)" placeholder="Digite o banco" id="input">
+
+  <h3> Lista de bancos: </h3>
+
+  <div *ngFor="let banco of bancoFiltrado">
+    <h4>{{banco.name}}</h4>
+    <h4>{{banco.code}}</h4>
+    <h4>{{banco.fullName}}</h4>
+  </div>
+
+
+  <main>
+
+    <footer>
+      <hr>
+      <h3>Desenvolvido por Adriana Brunner</h3>
+    </footer>
